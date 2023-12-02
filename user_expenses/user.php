@@ -1,5 +1,6 @@
 <?php
    include("../connection/config.php");
+   include("../sidebar.php");
 
 
 

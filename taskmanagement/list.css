@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-
+.container
+{
+    position: sticky;
+    top: 0;
+    left: 100px;
+}
 .container table {
-    width: 100%;
+    width: 75%;
     border-collapse: collapse;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 320px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 .container h2{
@@ -41,21 +47,21 @@ a:hover {
 }
 
 #forSearch{
-    display: none;
+    display: block;
 }
 
 .create{
     position: relative;
     top: 10px;
-    left: 80px;
+    left: 320px;
     
 }
 
-.search{
+.search {
     position: relative;
     top: -320px;
-    left: 880px;
-    
+    left: 100px;
+    margin-bottom: 20px; /* Added margin to separate search bar and table */
 }
 
 #t{

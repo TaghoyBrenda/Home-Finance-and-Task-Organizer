@@ -1,8 +1,6 @@
 <?php
    include("../connection/config.php");
-
-
-
+   include("../sidebar.php");
 
 ?>
 
@@ -23,7 +21,7 @@
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    margin-left: 80px;
+    margin-left: 320px;
     border-radius: 10px;
     font-family: 'Poppins', sans-serif;
 }
@@ -59,29 +57,30 @@ a:hover {
 }
 
 #forSearch{
-    display: none;
+    display: block;
 }
 
 .create{
     position: relative;
     top: 10px;
-    left: 80px;
+    left: 320px;
     
 }
 
 .search{
     position: relative;
     top: -320px;
-    left: 880px;
+    left: 100px;
     
 }
+
 
 
         </style>
 
 </head>
 <body>
-
+      
 
     <hr>
     <div class="container">
